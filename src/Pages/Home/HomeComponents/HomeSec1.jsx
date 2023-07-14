@@ -17,6 +17,7 @@ const HomeSec1 = () => {
             <button className="bg-[#FF6D1C] py-[20px] px-[80px] text-2xl">Order</button>
           </div>
           <div className="w-full "></div>
+          <div className="w-full "></div>
         </div>
       </div>
     </div>
