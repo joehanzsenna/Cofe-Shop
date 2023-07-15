@@ -6,6 +6,7 @@ import HomeSec2 from "../HomeComponents/HomeSec2";
 import HomeSec3 from "../HomeComponents/HomeSec3";
 import HomeSec4 from "../HomeComponents/HomeSec4";
 import AboutusIndex from "../../AboutUs/AboutusIndex/AboutusIndex";
+import ContactIndex from "../../Contact/ContactIndex/ContactIndex";
 
 const HomeIndex = () => {
   return (
@@ -16,6 +17,7 @@ const HomeIndex = () => {
       <HomeSec3/>
       <HomeSec4/>
       <AboutusIndex/>
+      <ContactIndex/>
       <Footer/>
     </div>
   );

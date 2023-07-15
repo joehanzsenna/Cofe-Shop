@@ -5,7 +5,7 @@ import HomeSec2Img03 from '../../../assets/HomeAssets/homeSec2Img03.png'
 
 const HomeSec2 = () => {
   return (
-    <div className="w-full max-w-[1440px] mx-auto h-[auto] bg-gray-400 text-white">
+    <div className="w-full max-w-[1440px] mx-auto h-[auto]  text-white">
       <div className="w-[90%] mx-auto pt-52 pb-20">
         <h1 className="text-8xl w-[45rem] text-white">
           THE COFFEE <br /> WE WORK WITH
