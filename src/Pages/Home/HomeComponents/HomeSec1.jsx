@@ -10,9 +10,9 @@ const HomeSec1 = () => {
       <div className="w-full relative">
         <img src={heroImg} alt="" className="overflow-hidden " />
         <div className="w-[1145px] h-[714px] bg-[#1E0C06] absolute  top-[43%] right-0 translate-y-[-50%] flex justify-center align-middle">
-          <div className="w-full h-full py-[50px] px-[35px] text-white">
-            <h1 className="text-[110px] leading-[8rem]">
-              Your Coffee. Your Way.
+          <div className="w-full h-full py-[50px] pl-[35px] text-white">
+            <h1 className="text-[78px] leading-[6rem] font-serif font-semibold">
+              YOUR COFFEE. YOUR WAY.
             </h1>
             <p className="text-[30px] py-[30px] ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.

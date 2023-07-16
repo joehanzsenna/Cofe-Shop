@@ -7,7 +7,7 @@ const HomeSec2 = () => {
   return (
     <div className="w-full max-w-[1440px] mx-auto h-[auto]  text-white">
       <div className="w-[90%] mx-auto pt-52 pb-20">
-        <h1 className="text-8xl w-[45rem] text-white">
+        <h1 className="text-[5rem] w-[50rem] text-white font-serif font-semibold">
           THE COFFEE <br /> WE WORK WITH
         </h1>
         <div className="mt-[8rem] grid grid-cols-3 gap-40 justify-between w-[100%]">

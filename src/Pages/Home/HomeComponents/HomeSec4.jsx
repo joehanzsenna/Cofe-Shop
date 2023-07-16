@@ -5,8 +5,8 @@ const HomeSec4 = () => {
   return (
     <div className="w-full max-w-[1440px] mx-auto h-auto text-white">
       <div className="w-[85%] mx-auto pb-[10rem]">
-        <h1 className="text-8xl py-32">
-          PORPULAR DESTINATION FOR COFFEE LOVER
+        <h1 className="text-[5rem] py-32 font-serif font-semibold">
+          PORPULAR DESTINATION FOR COFFEE LOVERS
         </h1>
         <div className="w-full flex items-center justify-between gap-32">
           <img src={HomeSec4Img} alt="" />

@@ -1,14 +1,54 @@
-import React from "react";
-import HomeSec3Img01 from "../../../assets/HomeAssets/HomeSec3Img01.png";
+import React, { useState } from "react";
+import { coffeeData } from "../HomeDb/HomeDb";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { HiOutlineArrowRight } from "react-icons/hi";
+import { HiOutlineArrowLeft } from "react-icons/hi";
+
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import { Pagination, Navigation } from "swiper/modules";
 
 const HomeSec3 = () => {
+  const [data] = useState(coffeeData);
+
   return (
     <div className="w-full max-w-[1440] mx-auto h-auto text-white py-[4rem] ">
       <div className="w-[90%] mx-auto text-center">
-        <h1 className="text-8xl py-36">PORPULAR COFFEE</h1>
-        <div className="flex justify-center mx-auto">
-          <img src={HomeSec3Img01} alt="" className="w-[90%]"/>
-        </div>
+        <h1 className="text-8xl py-36 font-serif font-medium">
+          PORPULAR COFFEE
+        </h1>
+        <Swiper
+          pagination={{
+            clickable: true,
+          }}
+          navigation={{
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            clickable: true,
+          }}
+          // navigation={true}
+          modules={[Pagination, Navigation]}
+          className="flex justify-center mx-auto"
+        >
+          {data.map((coffeeData) => {
+            const { id, image } = coffeeData;
+            return (
+              <SwiperSlide key={id}>
+                <img src={image} alt="" className="w-[90%] mx-auto" />
+              </SwiperSlide>
+            );
+          })}
+          <div className="">
+            <div>
+              <HiOutlineArrowRight className="swiper-button-next text-white w-[4rem] h-[4rem]" />
+            </div>
+            <div>
+              <HiOutlineArrowLeft className="swiper-button-prev text-white w-[4rem] h-[4rem]" />
+            </div>
+          </div>
+        </Swiper>
       </div>
     </div>
   );
