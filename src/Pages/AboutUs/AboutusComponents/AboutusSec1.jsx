@@ -8,8 +8,10 @@ const AboutusSec1 = () => {
     <div className="w-full max-w-[1440px] mx-auto text-white">
       <div className="w-[95%] h-screen bg-[#1E0C06] mb-10 grid justify-center items-center grid-cols-2">
         <div className="w-[80%] justify-self-end">
-          <h1 className="text-8xl font-serif font-medium mb-20">ABOUT US</h1>
-          <p className="text-3xl leading-snug">
+          <h1 className="text-3xl md:text-5xl lg:text-[78px] font-serif font-medium mb-20">
+            ABOUT US
+          </h1>
+          <p className="text-xl md:text-2xl lg:text-3xl leading-normal">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud.

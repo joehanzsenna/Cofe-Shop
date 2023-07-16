@@ -16,7 +16,7 @@ const HomeSec3 = () => {
   return (
     <div className="w-full max-w-[1440] mx-auto h-auto text-white py-[4rem] ">
       <div className="w-[90%] mx-auto text-center">
-        <h1 className="text-8xl py-36 font-serif font-medium">
+        <h1 className="text-3xl md:text-5xl lg:text-[78px] py-16 md:py-36 font-serif font-semibold">
           PORPULAR COFFEE
         </h1>
         <Swiper
