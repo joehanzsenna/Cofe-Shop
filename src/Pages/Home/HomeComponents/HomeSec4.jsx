@@ -22,7 +22,7 @@ const HomeSec4 = () => {
             </p>
           </div>
         </div>
-        <button className="w-50% md:w-85% mx-auto flex justify-center bg-[#1E0C06] py-7 font-medium px-[3rem] md:px-[5rem] text-xl md:text-3xl mt-20">
+        <button className="w-50% md:w-85% mx-auto flex justify-center bg-[#1E0C06] hover:bg-[#1e1206] py-7 font-medium px-[3rem] md:px-[5rem] text-xl md:text-3xl mt-20">
           Get a booking
         </button>
       </div>

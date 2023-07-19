@@ -15,6 +15,8 @@ const ContactSec1 = () => {
           </p>
         </div>
         <form
+          // id-contact for HashLink
+          id="contact"
           action=""
           className="mt-16 mx-auto w-[80%] lg:w-[65%] flex flex-col gap-10"
         >
@@ -33,7 +35,7 @@ const ContactSec1 = () => {
             placeholder="Your question"
             className="bg-transparent h-[15rem] border-4 border-gray-500 text-xl md:text-3xl py-3 px-8 font-medium"
           ></textarea>
-          <button className=" py-3 px-10 w-[13rem] font-medium mx-auto text-xl md:text-3xl bg-[#FF6D1C]">
+          <button className=" py-3 px-10 w-[13rem] font-medium mx-auto text-xl md:text-3xl bg-[#FF6D1C] hover:bg-[#ffa41c]">
             Send
           </button>
         </form>

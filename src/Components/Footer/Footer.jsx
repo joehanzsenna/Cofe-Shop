@@ -1,6 +1,8 @@
 import React from "react";
 import { SlLocationPin } from "react-icons/sl";
 import { PiPhoneCall } from "react-icons/pi";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Footer = () => {
   return (
@@ -8,7 +10,7 @@ const Footer = () => {
       <div className="w-[85%] text-center md:text-left mx-auto pt-16 ">
         <ul className="w-full grid md:grid-cols-2 lg:flex justify-center md:justify-between items-center gap-10 md:gap-20">
           <div className="text-xl md:text-2xl lg:text-4xl font-semibold">
-            CofeShop
+            <HashLink to='#home'>CofeShop</HashLink>
           </div>
           <div className="text-xl md:text-2xl lg:text-3xl flex gap-4 font-medium">
             <PiPhoneCall className="text-3xl md:text-5xl font-medium" />

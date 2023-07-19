@@ -6,8 +6,15 @@ import homeSec1Img03 from "../../../assets/HomeAssets/homeImg03.png";
 
 const HomeSec1 = () => {
   return (
-    <div className=" text-white w-full relative md:h-[1080px] max-w-[1440px] mx-auto">
-        <img src={heroImg} alt="" className="w-full h-[900px] md:h-auto lg:h-[110%] absolute top-0 object-cover" />
+    <div
+      id="home"
+      className=" text-white w-full relative md:h-[1080px] max-w-[1440px] mx-auto"
+    >
+      <img
+        src={heroImg}
+        alt=""
+        className="w-full h-[900px] md:h-auto lg:h-[110%] absolute top-0 object-cover"
+      />
       <div className="w-full h-[900px] lg:h-auto">
         <div className="w-full lg:w-[85%] h-auto lg:h-[714px] bg-[#1e0c06b2] lg:bg-[#1E0C06]  absolute top-[50%] md:top-[45%] lg:top-[53%] lg:right-0 translate-y-[-18rem] md:translate-y-[-19rem] lg:translate-y-[-50%] flex-col lg:flex-row flex justify-center items-center">
           <div className="w-[80%] md:w-[70%] lg:w-full h-full py-[50px] lg:py-[6rem] pl-[35px] text-white">
@@ -17,7 +24,7 @@ const HomeSec1 = () => {
             <p className="text-xl md:text-2xl lg:text-[30px] py-8 md:py-[50px] ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
             </p>
-            <button className="bg-[#FF6D1C] py-[16px] px-[70px] text-3xl">
+            <button className="bg-[#ff8a1c] hover:bg-[#ffa41c] py-[16px] px-[70px] text-3xl">
               Order
             </button>
           </div>
