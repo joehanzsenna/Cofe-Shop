@@ -28,7 +28,8 @@ const HomeSec1 = () => {
               Order
             </button>
           </div>
-          <div className="w-[90%] grid grid-cols-3 justify-between lg:grid-cols-1 gap-4 py-12 px-12">
+
+          <div className="w-[90%] grid grid-cols-3 justify-between lg:grid-cols-1 gap-4 py-12 px-12 lg:relative">
             <div className="flex lg:flex-row-reverse">
               <img src={homeSec1Img01} alt="" className="" />
             </div>
@@ -38,6 +39,8 @@ const HomeSec1 = () => {
             <div className="flex lg:flex-row-reverse">
               <img src={homeSec1Img03} alt="" />
             </div>
+
+            <div className="none lg:block lg:absolute lg:w-[.1rem] lg:h-[32rem] lg:top-[8%] lg:left-5 lg:border-[grey] lg:border-l-2"></div>
           </div>
         </div>
       </div>

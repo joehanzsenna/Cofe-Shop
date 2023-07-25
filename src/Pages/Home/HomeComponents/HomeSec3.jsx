@@ -30,22 +30,22 @@ const HomeSec3 = () => {
           }}
           // navigation={true}
           modules={[Pagination, Navigation]}
-          className="flex justify-center mx-auto"
+          className="w-full flex justify-center mx-auto"
         >
           {data.map((coffeeData) => {
             const { id, image } = coffeeData;
             return (
               <SwiperSlide key={id}>
-                <img src={image} alt="" className="w-[90%] mx-auto" />
+                <img src={image} alt="" className="w-[85%] mx-auto" />
               </SwiperSlide>
             );
           })}
           <div className="">
-            <div>
-              <HiOutlineArrowRight className="swiper-button-next text-white w-[4rem] h-[4rem]" />
+            <div className="">
+              <HiOutlineArrowRight className="swiper-button-next  text-white object-contain mr-[-.8rem] md:mr-[-1.5rem] md:px-3 md:w-[4rem] md:h-[4rem] lg:w-[5rem] lg:h-[5rem]" />
             </div>
-            <div>
-              <HiOutlineArrowLeft className="swiper-button-prev text-white w-[4rem] h-[4rem]" />
+            <div className="">
+              <HiOutlineArrowLeft className="swiper-button-prev  text-white  object-contain ml-[-.8rem] md:ml-[-1.5rem] md:px-3 md:w-[4rem] md:h-[4rem] lg:w-[5rem] lg:h-[5rem]" />
             </div>
           </div>
         </Swiper>

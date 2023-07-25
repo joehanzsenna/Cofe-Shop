@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1021px) {
+  .menuLi {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    background-color: rgba(68, 35, 13, 0.952);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: -1000px;
+    left: 0;
+    opacity: 0;
+    top: 70%;
+    height: 75vh;
+    transition: .4s ease-in-out;
+  }
+  .menuLiActive{
+    left: 0;
+    opacity: 1;
+    transition: .5s ease-in;
+  }
+}
